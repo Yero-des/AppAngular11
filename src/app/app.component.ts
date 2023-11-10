@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'appPractica';
+  contador = 1;
+  incrementar() {
+    this.contador++;
+  }
+  decrementar() {
+    this.contador--;
+  }
 }
